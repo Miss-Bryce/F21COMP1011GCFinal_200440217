@@ -72,21 +72,21 @@ public class InventoryTypeController {
     }
 
     public RadioButton getYearRadioButton() {
-        yearRadioButton.setToggleGroup(group);
         return yearRadioButton;
     }
 
     public void setYearRadioButton(RadioButton yearRadioButton) {
         this.yearRadioButton = yearRadioButton;
+        yearRadioButton.setToggleGroup(group);
     }
 
     public RadioButton getMakeRadioButton() {
-        makeRadioButton.setToggleGroup(group);
         return makeRadioButton;
     }
 
     public void setMakeRadioButton(RadioButton makeRadioButton) {
         this.makeRadioButton = makeRadioButton;
+        makeRadioButton.setToggleGroup(group);
     }
 
 
