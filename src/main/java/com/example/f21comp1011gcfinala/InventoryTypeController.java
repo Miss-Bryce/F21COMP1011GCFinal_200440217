@@ -89,6 +89,7 @@ public class InventoryTypeController {
         makeRadioButton.setToggleGroup(group);
     }
 
+    
 
 
 }
