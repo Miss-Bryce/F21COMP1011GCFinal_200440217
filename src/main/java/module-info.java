@@ -5,6 +5,6 @@ module com.example.f21comp1011gcfinala {
     requires com.google.gson;
 
 
-    opens com.example.f21comp1011gcfinala to javafx.fxml;
+    opens com.example.f21comp1011gcfinala to javafx.fxml, com.google.gson;
     exports com.example.f21comp1011gcfinala;
 }

@@ -2,16 +2,27 @@ package com.example.f21comp1011gcfinala;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import com.google.gson.annotations.SerializedName;
 
 public class Car extends Dealership {
 
+    @SerializedName("id")
     private int id;
-    private int year;
-    private String make;
-    private double price;
-    private String model;
-    private ArrayList<String> type;
 
+    @SerializedName("year")
+    private String year;
+
+    @SerializedName("make")
+    private String make;
+
+    @SerializedName("model")
+    private String model;
+
+    @SerializedName("price")
+    private double price;
+
+    @SerializedName("type")
+    private ArrayList<String> type;
 
     public int getId() {
         return id;
@@ -21,11 +32,11 @@ public class Car extends Dealership {
         this.id = id;
     }
 
-    public int getYear() {
+    public String getYear() {
         return year;
     }
 
-    public void setYear(int year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
@@ -37,14 +48,6 @@ public class Car extends Dealership {
         this.make = make;
     }
 
-    public double getPrice() {
-        return price;
-    }
-
-    public void setPrice(double price) {
-        this.price = price;
-    }
-
     public String getModel() {
         return model;
     }
@@ -53,8 +56,15 @@ public class Car extends Dealership {
         this.model = model;
     }
 
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public ArrayList<String> getType() {
-        Collections.sort(type);
         return type;
     }
 
