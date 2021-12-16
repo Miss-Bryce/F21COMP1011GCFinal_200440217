@@ -8,7 +8,7 @@
    <children>
       <BorderPane prefHeight="800.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <top>
-            <Label fx:id="dealerLabel" text="JDub's Used Car Emporium" BorderPane.alignment="CENTER" />
+            <Label fx:id="dealerLabel" text=" JDub's Used Car Emporium " BorderPane.alignment="CENTER" />
             <Label text="Cars in Inventory" BorderPane.alignment="CENTER" />
          </top>
          <padding>
